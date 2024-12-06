@@ -1,0 +1,30 @@
+
+// 
+
+import React from 'react';
+export const App = () =>{
+  return( 
+    <div>
+      <NetflixSeries />
+      <NetflixSeries />
+      <NetflixSeries />
+      <NetflixSeries />
+      <NetflixSeries />
+
+    </div>
+  );
+};
+const NetflixSeries=()=>{
+  return(
+    <div>
+    <div>
+      <img src="queen.jpg" alt="queen.jpg" width="40%" height="40%"/>
+      </div>
+      <h2>Name: Queen of tears</h2>
+  <h3>Rating:8</h3>
+  <p>Summary:Queen of Tears narrates the story of Hong Hae-in (Kim Ji-won), a third-generation chaebol heiress of Queens Group, and Baek Hyun-woo (Kim Soo-hyu), the son of farmers from Yongdu-ri. While on the verge of divorce, this couple discovers that Hong Hae-in is terminally ill, and their romance rekindles.
+    </p>
+    </div>);
+  
+
+};
